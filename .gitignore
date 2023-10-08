@@ -1,0 +1,19 @@
+# Dossiers
+node_modules/
+dist/
+coverage/
+build/
+temp/
+
+# Fichiers
+.env
+.env.*
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Fichiers de configuration
+tsconfig.json
+jest.config.js
