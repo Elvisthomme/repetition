@@ -34,7 +34,7 @@ Before running the application, you need to configure certain environment variab
 
 ```bash
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/database-name
+MIGRATE_MONGO_URI=mongodb://localhost:27017/database-name
 JWT_SECRET=your-jwt-secret
 ```
 Make sure to replace the values with the appropriate configurations for your environment.
@@ -79,3 +79,6 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## License
 This project is distributed under the MIT License.
+```bash
+sudo docker build -f Dockerfile.dev -t elvis:express-ts .
+```

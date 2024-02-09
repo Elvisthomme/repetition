@@ -15,5 +15,5 @@ temp/
 *.tmp
 
 # Fichiers de configuration
-tsconfig.json
-jest.config.js
+# tsconfig.json
+# jest.config.js

@@ -5,13 +5,13 @@ FROM node:slim
 ENV NODE_ENV production
 
 # Setting up the work directory
-WORKDIR /express-docker
+WORKDIR /usr/src/app
 
 # Copying all the files in our project
-COPY . .
+# COPY . .
 
 # Installing dependencies
-RUN npm install
+RUN npm ci
 
 # Installing pm2 globally
 RUN npm install pm2 -g
